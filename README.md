@@ -1,6 +1,6 @@
 # Smallpeice Robotics Computer Vision & AI Lecture: "Learning to See"
 
-This Github repository stores the interactive slides for the Computer Vision & AI lecture I gave for the Smallpeice Robotics Summer School at the [University of Southampton](http://www.soton.ac.uk). The slides were built using [OpenIMAJ](http://www.openimaj.org).
+This Github repository stores the interactive slides for the Computer Vision & AI lecture I gave for the Smallpeice Robotics Summer School in 2018 at the [University of Southampton](http://www.soton.ac.uk). The slides were built using [OpenIMAJ](http://www.openimaj.org).
 
 From this page you can get the source-code for the presentation, which you can build yourself following the instructions below. If you just want to run the presentation, you can download the latest version of the pre-compiled runnable jar from [here](http://jenkins.ecs.soton.ac.uk/job/Smallpeice-Lecture/lastBuild/artifact/target/SmallpeiceLearningToSee-1.0-SNAPSHOT-jar-with-dependencies.jar). 
 
