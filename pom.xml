@@ -13,6 +13,11 @@
   </properties>
   <dependencies>
     <dependency>
+	  <groupId>black.ninia</groupId>
+	  <artifactId>jep</artifactId>
+	  <version>3.8.2</version>
+    </dependency>
+    <dependency>
       <groupId>org.openimaj</groupId>
       <artifactId>core-experiment</artifactId>
       <version>${openimaj.version}</version>

@@ -128,6 +128,16 @@ public class App {
 		slides.set(69, new SpeakingSlide(App.class.getResource("slides/slides.069.jpg"),
 				"a surfer is jumping off a snowy hill"));
 
+		try {
+			final FaceNetDemo fn = new FaceNetDemo("FaceTime");
+			slides.add(14, fn);
+
+			final RetinaNetDemo rn = new RetinaNetDemo("FaceTime");
+			slides.add(61, rn);
+		} catch (final Exception e) {
+			// ignore; probably haven't got python configured
+		}
+
 		slides.remove(0);
 
 		new SlideshowApplication(slides, SLIDE_WIDTH, SLIDE_HEIGHT, getBackground());
